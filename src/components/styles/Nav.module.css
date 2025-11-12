@@ -1,0 +1,39 @@
+
+.container_nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            top: 0%;
+            margin: 0; 
+            gap:690px ;
+            padding: 20px;
+  
+
+    
+}
+
+ ul { 
+    display: flex; /* <-- ¡Alinea los <li> uno al lado del otro! */
+    list-style: none; /* Quita las viñetas */
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+   }
+    
+.icon_regla{
+   width: 35px;
+ height: auto;
+ top: 0px;
+ 
+}
+.tittle_principal{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: white;
+}
+

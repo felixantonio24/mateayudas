@@ -1,0 +1,38 @@
+
+.service_card{
+         background: white;
+         height: auto;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+            flex: 1;
+            min-width: 220px;
+            max-width: 300px;
+       
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service_card:hover {
+            transform: translateY(-5px);
+        }
+
+
+
+.image{
+    width: 4pc;
+    height: auto;
+}
+h3{
+    color: #667eea;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.parr{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+
+}

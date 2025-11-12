@@ -17,3 +17,15 @@
     width:70rem;
     margin: 0 auto; /* ← Centra el contenedor mismo */
 }
+
+@media(max-width:480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+            
+
+    }
+ 
+
+}
